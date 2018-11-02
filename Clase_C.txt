@@ -8,8 +8,14 @@ git clone	Para clonar un repositorio y asi tener la carpeta
 git config --list	Lista la configuracion
 git config --global user.name "-inserte nombre aqui-"	Configuramos el nombre del usuario
 git config user.name 	Muestra el nombre del usuario
-git push origin master	Guarda los cambios en el respositorio perteneciente al clonado
+git push origin master	Guarda los cambios en el respositorio perteneciente al clonado "Desde la rama master" //git push origin nuevaRama
 git push	Guarda los cambios en la cuenta de github que ingrese
+git diff	Me dice la diferencia entre el repositorio local y el original
+git remote	creo que dice con que repositorio estoy trabajando
+git branch	Verifica donde estoy
+git checkout	Cambia la rama donde estoy ej git checkout nuevaRama o master
+git checkout -B	Crea otra rama y me pone en la creada ej: git checkout -B otraRama
+git merge	Toma de un branch y lo mete en otro branch	ej: git merge nuevaRama estando en el master
 
 apt-get git	Para instalar el programa
 
@@ -22,3 +28,5 @@ Si el archivo aparece en rojo significa que no esta guardado, si aparece en verd
 
 Dar permiso de colaborador, el otro debe aceptar la invitacion en su email y asi puede hacer cambios
 en el repositorio correspondiente
+
+echo >> ".gitingnore"
