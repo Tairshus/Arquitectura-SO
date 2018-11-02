@@ -1,0 +1,24 @@
+git init	Crea un repositorio de manera local
+git status	Muestra lo que hay para commit si es que hay
+git add .	Para guardar todo lo que hagamos en este repositorio
+git ignore	Para que ignore algun o tipo de archivos, ej: git ignore *.jpg 	"ignorara todos los .jpg"
+git commit -m "Primer commit"	Commitea
+git log
+git clone	Para clonar un repositorio y asi tener la carpeta
+git config --list	Lista la configuracion
+git config --global user.name "-inserte nombre aqui-"	Configuramos el nombre del usuario
+git config user.name 	Muestra el nombre del usuario
+git push origin master	Guarda los cambios en el respositorio perteneciente al clonado
+git push	Guarda los cambios en la cuenta de github que ingrese
+
+apt-get git	Para instalar el programa
+
+<h1> Hola </h1>		? :v
+
+
+Si el archivo aparece en rojo significa que no esta guardado, si aparece en verde significa que ha sido guardado
+
+--Hasta aqui la parte facil--
+
+Dar permiso de colaborador, el otro debe aceptar la invitacion en su email y asi puede hacer cambios
+en el repositorio correspondiente
