@@ -16,6 +16,7 @@ git branch	Verifica donde estoy
 git checkout	Cambia la rama donde estoy ej git checkout nuevaRama o master
 git checkout -B	Crea otra rama y me pone en la creada ej: git checkout -B otraRama
 git merge	Toma de un branch y lo mete en otro branch	ej: git merge nuevaRama estando en el master
+git pull	Actualiza el repositorio en caso de que hayan hecho algun cambio en el original
 
 apt-get git	Para instalar el programa
 
