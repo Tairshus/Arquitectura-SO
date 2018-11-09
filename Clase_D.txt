@@ -1,0 +1,35 @@
+En el master pongo todo lo que esta funcionando y sera lo que le muestro al cliente
+
+Master puede tener un branch devUi
+
+	---->Master
+	|
+	|------>devUi
+	|   |
+	|   |-->
+	|
+	|--->devUitest
+	|
+	|--->test
+
+
+git clone -b -nombre de rama- -link al repositorio-
+
+Lo primero que se ejecuta al iniciar la maquina es la bios
+
+Linux
+{
+    El group es un archivo que veremos configurado y despues se carga otro archivo que es el group real
+}
+
+Windows
+{
+    Masterbootrecord, define una posicion del disco rigido como de arranque
+}
+
+Para verificar:
+1)BIOS
+2)bootloader: establece un punto de inicio
+3)Kernel --> driver
+4)init
+___________
