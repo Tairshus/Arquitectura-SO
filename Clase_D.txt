@@ -27,9 +27,21 @@ Windows
     Masterbootrecord, define una posicion del disco rigido como de arranque
 }
 
+Un proceso demonio es aquel que esta haciendo algo constantemente sin que yo se lo ordene, no lo controlo
+
 Para verificar:
 1)BIOS
 2)bootloader: establece un punto de inicio
 3)Kernel --> driver
-4)init
+4)init: es el primer procreso que se va a ejecutar en nuestra memoria
+es un proceso padre de todos los procesos
+que numero de proceso es el init? ya que todos los procesos tienen numero, el init es el 1, si lograramos matar
+este proceso se muere todo Dead End
+
+ps -ef -->para ver los procesos
+ps -aux -->tambien ver los procesos?
+bg	-->me trae los procesos detenidos
+
+ctrl+z detiene proceso
+ctrl+c cirra proceso
 ___________
