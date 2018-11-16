@@ -1,0 +1,33 @@
+id	Me dice el usuario que esta logeado
+id -nombre del usuario-	me crea un grupo para ese usuario con el nombre de ese usuario
+user id
+passwd  	Cambiar contraseña
+cat /etc/passwd		Registro de los usuarios
+sudo cat /etc/shadow	Ahi estan guardadas las contraseñas
+useradd
+useradd -s	Añadir usuario
+useradd -m
+useradd -c
+egrep "palabra" "directorio donde busco"	como un ll_filter que me devuelve las lineas donde encuentra la palabra
+ls -la | more	Me lista el contenido de la carpeta, sus permisos y mas informacion
+sudo passwd "nombre de usuario"		cambia la contraseña
+sudo login "nombre de usuario"		obvio
+su "usuario"	dar permiso de login
+su - "usuario"	alternativo al de arriba
+useradd -s /bin/bash -m -c "descripcion" -nombre de usuario-
+
+cd .config	ir a config
+cat user-dirs.dirs y asi veo la lista de dirs
+
+con migo se conecta: vallejos
+tp con: vilar
+
+usuarios: owner,admin,test,desarrollo
+grupos: dev y testing
+
+1)Crear los grupos
+2)Que dev pertenezca a desarrollo
+3)Que test pertenezca a testing
+4)Que owner pertenezca a los dos grupos
+5)Crear la carpeta "/datos" en "/"
+6)Cambiar permisos para: rwx rw--
